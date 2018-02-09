@@ -198,7 +198,7 @@ var _upload = _dereq_("./upload");
 
 var _upload2 = _interopRequireDefault(_upload);
 
-var _storage = _dereq_("./node/storage");
+var _storage = _dereq_("./browser/storage");
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -229,7 +229,7 @@ module.exports = {
   defaultOptions: defaultOptions
 };
 
-},{"./node/storage":4,"./upload":8}],8:[function(_dereq_,module,exports){
+},{"./browser/storage":4,"./upload":8}],8:[function(_dereq_,module,exports){
 "use strict";
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }(); /* global window */
@@ -263,7 +263,7 @@ var _base = _dereq_("./node/base64");
 
 var Base64 = _interopRequireWildcard(_base);
 
-var _storage = _dereq_("./node/storage");
+var _storage = _dereq_("./browser/storage");
 
 var Storage = _interopRequireWildcard(_storage);
 
@@ -803,7 +803,7 @@ Upload.defaultOptions = defaultOptions;
 
 exports.default = Upload;
 
-},{"./error":5,"./fingerprint":6,"./node/base64":1,"./node/request":2,"./node/source":3,"./node/storage":4,"extend":9}],9:[function(_dereq_,module,exports){
+},{"./browser/storage":4,"./error":5,"./fingerprint":6,"./node/base64":1,"./node/request":2,"./node/source":3,"extend":9}],9:[function(_dereq_,module,exports){
 'use strict';
 
 var hasOwn = Object.prototype.hasOwnProperty;
